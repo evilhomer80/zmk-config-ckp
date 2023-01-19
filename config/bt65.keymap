@@ -17,12 +17,14 @@
 			tap-ms = <0>;
 			bindings
     				= <&macro_press &mo 1>
+				, <&macro_tap &rgb_ug RGB_SPI>
     				, <&macro_tap &rgb_ug RGB_EFF>
     				, <&macro_pause_for_release>
     				, <&macro_release &mo 1>
+				, <&macro_tap &rgb_ug RGB_SPD>
     				, <&macro_tap &rgb_ug RGB_EFR>;
-		}
-	}
+		};
+	};
 
 	keymap {
 		compatible = "zmk,keymap";
