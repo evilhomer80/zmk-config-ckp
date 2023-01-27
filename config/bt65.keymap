@@ -31,7 +31,7 @@
 			wait-ms = <0>;
 			tap-ms = <0>;
 			bindings
-				= <&macro_press &kb CAPS>
+				= <&macro_press &kp CAPS>
 				, <&macro_tap &bl BL_TOG>;
 		};
 	};
