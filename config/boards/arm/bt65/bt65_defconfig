@@ -42,7 +42,7 @@ CONFIG_BUILD_OUTPUT_UF2=y
 
 # Add in some sleep timeouts and deep sleep just before 5 minutes
 CONFIG_ZMK_IDLE_TIMEOUT=30000
-CONFIG_ZMK_SLEEP=Y
+CONFIG_ZMK_SLEEP=y
 CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=299000
 
 # Only update battery level every 5 mins instead of every minute
